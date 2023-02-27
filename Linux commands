@@ -1,0 +1,39 @@
+cat: Display contect of files
+sudo:  Super user
+grep: Globally search and print. search specific string
+head: Fisrt 10 lines of file
+tail: Last 10 lines
+logger: Add entries in     /var/log/syslog  
+journalctl: Display log entries from several sources
+chmod: Change mod. R,W,X  ; file owner, owner group, everyone else 
+
+
+
+Networking
+
+ping: Test network connectivity by sending ICMP echo requests to a host.
+traceroute: Trace the route taken by packets from the source to the destination host.
+netstat: Display network connections and routing tables.
+ifconfig: Configure network interfaces and display network configuration.
+ip: Configure and display network interfaces, routing tables, and network settings.
+route: Configure and display routing tables.
+arp: Display and modify the Address Resolution Protocol (ARP) cache.
+tcpdump: Capture and analyze network traffic.
+dig: Perform DNS lookups and display information about DNS servers and domains.
+nslookup: Perform DNS lookups and display information about DNS servers and domains.
+host: Perform DNS lookups and display information about DNS servers and domains.
+nmap: Scan for open ports and detect network vulnerabilities.
+iptables: Configure the Linux firewall.
+ssh: Connect to a remote host using the Secure Shell (SSH) protocol.
+scp: Securely copy files between hosts using the SSH protocol.
+rsync: Efficiently synchronize files between hosts.
+wget: Download files from the Internet using HTTP, HTTPS, and FTP protocols.
+curl: Transfer data from or to a server using various protocols, including HTTP, HTTPS, and FTP.
+iftop: Display network traffic in real-time.
+iptraf: Monitor network traffic in real-time and analyze network statistics.
+mtr: Network diagnostic tool that combines the functionality of ping and traceroute.
+ss: Display detailed information about network sockets and connections.
+hostname: Display or set the hostname of the Linux system.
+netstat: Print network connections, routing tables, interfaces statistics, masquerade connections and multicast memberships.
+route-nop: Display routing tables in numeric format.
+ifup/ifdown: Bring network interfaces up or down.
