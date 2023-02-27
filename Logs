@@ -1,0 +1,26 @@
+var/log/messages: General system messages.
+/var/log/syslog: All system activity, startup activity. Iincluding kernel and package updates.
+/var/log/auth.log: User authentication logs.
+/var/log/faillog: Information on failed login attempts.It can be view using the failog command.
+/var/log/kern.log: Kernel log messages.
+/var/log/cron.log: Cron job logs.
+/var/log/boot.log: Boot messages and logs.
+/var/log/dmesg: Kernel ring buffer messages.
+/var/log/maillog: Mail server logs.
+/var/log/httpd/error_log: Apache HTTP server error logs.
+/var/log/httpd/access_log: Apache HTTP server access logs.
+/var/log/mysql/mysql.log: MySQL database server logs.
+/var/log/authpriv.log: Private authentication logs.
+/var/log/btmp: Failed login attempts logs.
+/var/log/secure: Security logs.
+/var/log/fail2ban.log: Fail2ban service logs.
+/var/log/sshd.log: SSH server logs.
+/var/log/proftpd/proftpd.log: ProFTPD server logs.
+/var/log/nginx/access.log: Nginx web server access logs.
+/var/log/nginx/error.log: Nginx web server error logs.
+/var/log/pureftpd.log: Pure-FTPd server logs.
+/var/log/openvpn.log: OpenVPN server logs.
+/var/log/pacman.log: Pacman package manager logs.
+/var/log/clamav/freshclam.log: ClamAV antivirus logs.
+/var/log/samba/log.smbd: Samba server logs.
+/var/log/sysstat/sar.log: System performance monitoring logs.
